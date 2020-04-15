@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="btnbrpth" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/btnbrpth</item>
+        <item name="android:textColor">@color/Background</item>
+        <item name="android:text"> LOGIN </item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="btnbrpth2" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/btnbrpth</item>
+        <item name="android:textColor">@color/Background</item>
+        <item name="android:text"> Connect With Facebook </item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="btnpthbr" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/btnpthbr</item>
+        <item name="android:textColor">@color/LightBlue</item>
+        <item name="android:text"> Register </item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

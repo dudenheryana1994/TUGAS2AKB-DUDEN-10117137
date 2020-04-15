@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/LightBlue"
+    android:clipToPadding="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:src="@drawable/ic_welcome_logo"
+        />
+
+    <EditText
+        android:id="@+id/username"
+        android:hint="Username"
+        android:paddingBottom="20dp"
+        android:textSize="14dp"
+        android:layout_below="@+id/logo"
+        android:layout_marginLeft="30dp"
+        android:textColorHint="@color/Background"
+        android:backgroundTint="@color/Background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_below="@+id/username"
+        android:hint="Password"
+        android:paddingBottom="20dp"
+        android:textSize="14dp"
+        android:layout_marginLeft="30dp"
+        android:textColorHint="@color/Background"
+        android:backgroundTint="@color/Background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+
+        />
+
+    <Button
+        android:id="@+id/tmbl_Login"
+        style="@style/btnbrpth"
+        android:layout_width="300dp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_marginTop="18dp"/>
+    <TextView
+        android:id="@+id/text_or"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/Background"
+        android:textSize="15dp"
+        android:text="OR"
+        android:layout_centerInParent="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/tmbl_Login"
+        android:textAlignment="center"
+
+        />
+    <Button
+        android:id="@+id/tmbl_fb"
+        style="@style/btnbrpth2"
+        android:layout_width="300dp"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_or"
+        android:drawableLeft="@drawable/ic_welcome_fb_login"
+        android:paddingLeft="40dp"
+        android:layout_marginTop="16dp"/>
+
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Doesn't Have Account? Register"
+        android:layout_below="@+id/tmbl_fb"
+        android:layout_centerInParent="true"
+        android:textColor="@color/Background"
+        android:paddingTop="18dp"
+        android:layout_gravity="center"
+        />
+
+
+
+</RelativeLayout>
