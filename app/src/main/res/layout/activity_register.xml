@@ -16,7 +16,7 @@
 
         <ImageView
             android:id="@+id/back"
-            android:src="@drawable/ic_arrow_back_black_24dp"
+            android:src="@drawable/arow_putih"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginLeft="10dp"
@@ -36,6 +36,7 @@
             />
 
     </LinearLayout>
+
     <EditText
         android:id="@+id/edt_username"
         android:hint="Username"
@@ -46,7 +47,8 @@
         android:layout_marginLeft="30dp"
         android:layout_marginTop="11dp"
         android:layout_marginRight="28dp"
-        android:textSize="14dp" />
+        android:textSize="14dp"
+        />
 
     <EditText
         android:id="@+id/edt_email"
@@ -58,8 +60,8 @@
         android:layout_marginTop="5dp"
         android:layout_marginRight="30dp"
         android:hint="Email"
-        android:textSize="14dp" />
-
+        android:textSize="14dp"
+        />
 
     <EditText
         android:id="@+id/edt_phone"
@@ -73,7 +75,8 @@
         android:hint="Phone Number"
         android:inputType="number"
         android:maxLength="12"
-        android:textSize="14dp" />
+        android:textSize="14dp"
+        />
 
     <RadioButton
         android:layout_width="100dp"
@@ -81,7 +84,9 @@
         android:layout_marginLeft="40dp"
         android:layout_below="@+id/edt_phone"
         android:id="@+id/radio_male"
-        android:text="@string/radio_male"/>
+        android:text="@string/radio_male"
+        />
+
     <RadioButton
         android:id="@+id/radio_female"
         android:layout_width="100dp"
@@ -92,6 +97,7 @@
         android:layout_below="@+id/edt_phone"
         android:text="@string/radio_female"
         />
+
     <Spinner
         android:hint="Blood Type"
         android:id="@+id/blood"
@@ -102,6 +108,7 @@
         android:layout_below="@+id/radio_male"
         android:entries="@array/blood_type"
         />
+
     <Spinner
         android:id="@+id/reshus"
         android:layout_width="wrap_content"
@@ -111,8 +118,8 @@
         android:layout_height="40dp"
         android:layout_below="@+id/radio_female"
         android:entries="@array/reshus"
-
         />
+
     <EditText
         android:id="@+id/password"
         android:layout_width="match_parent"
@@ -124,7 +131,9 @@
         android:layout_marginRight="30dp"
         android:hint="Password"
         android:inputType="textPassword"
-        android:textSize="14dp" />
+        android:textSize="14dp"
+        />
+
     <EditText
         android:id="@+id/repassword"
         android:layout_width="match_parent"
@@ -136,7 +145,8 @@
         android:layout_marginRight="30dp"
         android:hint="Retype Password"
         android:inputType="textPassword"
-        android:textSize="14dp" />
+        android:textSize="14dp"
+        />
 
     <RadioButton
         android:id="@+id/radio_personal"
@@ -145,7 +155,8 @@
         android:layout_height="70dp"
         android:layout_below="@+id/repassword"
         android:layout_marginLeft="40dp"
-        android:text="@string/radio_personal" />
+        android:text="@string/radio_personal"
+        />
 
     <RadioButton
         android:id="@+id/radio_organization"
@@ -177,7 +188,8 @@
         android:layout_marginTop="5dp"
         android:layout_marginRight="30dp"
         android:hint="Home Address"
-        android:textSize="14dp" />
+        android:textSize="14dp"
+        />
 
     <EditText
         android:id="@+id/defaultloc"
@@ -190,28 +202,29 @@
         android:layout_marginRight="30dp"
         android:drawableRight="@drawable/ic_blood_needed_location"
         android:hint="Default Location"
-        android:textSize="14dp" />
+        android:textSize="14dp"
+        />
 
     <CheckBox
         android:id="@+id/chkbox"
+        android:button="@drawable/checkbox_select"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:layout_below="@+id/defaultloc"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="5dp"
         android:text="@string/Chkbox"
-
         />
+
     <Button
         android:id="@+id/btnreg"
         style="@style/btnpthbr"
-        android:layout_width="300dp"
+        android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_below="@+id/chkbox"
         android:gravity="center"
         android:layout_centerInParent="true"
-
-
         />
+
 </RelativeLayout>
 

@@ -19,14 +19,14 @@
         android:id="@+id/logo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="30dp"
+        android:paddingTop="33dp"
         android:src="@drawable/ic_welcome_logo"
         />
 
     <EditText
         android:id="@+id/username"
         android:hint="Username"
-        android:paddingBottom="20dp"
+        android:paddingBottom="23dp"
         android:textSize="14dp"
         android:layout_below="@+id/logo"
         android:layout_marginLeft="30dp"
@@ -34,7 +34,8 @@
         android:backgroundTint="@color/Background"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
 
         />
     <EditText
@@ -48,19 +49,20 @@
         android:backgroundTint="@color/Background"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="30dp"
 
         />
 
     <Button
         android:id="@+id/tmbl_Login"
         style="@style/btnbrpth"
-        android:layout_width="300dp"
+        android:layout_width="350dp"
         android:gravity="center"
         android:layout_centerInParent="true"
         android:layout_height="wrap_content"
         android:layout_below="@id/password"
-        android:layout_marginTop="18dp"/>
+        android:layout_marginTop="25dp"/>
     <TextView
         android:id="@+id/text_or"
         android:gravity="center"
@@ -78,13 +80,13 @@
     <Button
         android:id="@+id/tmbl_fb"
         style="@style/btnbrpth2"
-        android:layout_width="300dp"
+        android:layout_width="350dp"
         android:layout_centerInParent="true"
         android:layout_height="wrap_content"
         android:layout_below="@id/text_or"
         android:drawableLeft="@drawable/ic_welcome_fb_login"
-        android:paddingLeft="40dp"
-        android:layout_marginTop="16dp"/>
+        android:paddingLeft="20dp"
+        android:layout_marginTop="2dp"/>
 
 
     <TextView
@@ -95,7 +97,7 @@
         android:layout_below="@+id/tmbl_fb"
         android:layout_centerInParent="true"
         android:textColor="@color/Background"
-        android:paddingTop="18dp"
+        android:paddingTop="30dp"
         android:layout_gravity="center"
         />
 

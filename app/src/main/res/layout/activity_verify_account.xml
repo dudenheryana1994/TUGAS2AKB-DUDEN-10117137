@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LightBlue"
+    tools:context=".VerifyAccount">
+
+    <TextView
+        android:id="@+id/txt_verify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:text="@string/verify_your_account"
+        android:textColor="@color/Background"
+        android:textSize="35sp"
+        />
+
+    <TextView
+        android:id="@+id/desc_verify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_verify"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/desc_verify"
+        android:textColor="@color/Background"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/desc_verify"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="@color/Background"
+        android:gravity="center"
+        android:hint="@string/enter_verification_code_here"
+        android:paddingBottom="20dp"
+        android:textColor="@color/Background"
+        android:textColorHint="@color/Background"
+        android:textSize="14dp"
+        />
+
+    <Button
+        android:id="@+id/Send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/desc_verify"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/btnbrpth"
+        android:text="@string/send"
+        android:textColor="@color/Background"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/desc_verify"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="@string/resendcode"
+        android:textColor="@color/Background"
+        android:textSize="13dp"
+        />
+
+
+
+</RelativeLayout>
