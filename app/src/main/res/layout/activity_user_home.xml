@@ -16,7 +16,8 @@
             android:layout_height="35dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="15dp"
-            android:src="@drawable/ic_side_menu" />
+            android:src="@drawable/ic_side_menu"
+            />
 
         <ImageView
             android:layout_width="wrap_content"
@@ -24,7 +25,8 @@
             android:layout_alignParentRight="true"
             android:layout_marginTop="15dp"
             android:layout_marginRight="15dp"
-            android:src="@drawable/ic_notification" />
+            android:src="@drawable/ic_notification"
+            />
 
     </RelativeLayout>
 
@@ -51,7 +53,8 @@
         android:layout_marginTop="10dp"
         android:text="Duden Heryana"
         android:textColor="@color/LightBlue"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        />
 
     <TextView
         android:id="@+id/golongandar"
@@ -60,7 +63,8 @@
         android:layout_below="@id/nama"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"
-        android:text="Blood Type : O"/>
+        android:text="Blood Type : AB"
+        />
 
     <TextView
         android:id="@+id/tampilsatu"
@@ -77,7 +81,8 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="0dp"
         android:layout_marginRight="0dp"
-        android:background="@color/separator" />
+        android:background="@color/separator"
+        />
 
     <TextView
         android:id="@+id/kiri"
@@ -86,9 +91,10 @@
         android:layout_below="@id/tampilsatu"
         android:layout_marginLeft="40dp"
         android:layout_marginTop="10dp"
-        android:text="80"
+        android:text="75"
         android:textColor="@color/LightBlue"
-        android:textSize="25sp" />
+        android:textSize="25sp"
+        />
 
     <TextView
         android:id="@+id/tengah"
@@ -97,9 +103,10 @@
         android:layout_below="@id/tampilsatu"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:text="60"
+        android:text="100"
         android:textColor="@color/LightBlue"
-        android:textSize="25sp" />
+        android:textSize="25sp"
+        />
 
 
 
@@ -111,9 +118,10 @@
         android:layout_alignParentRight="true"
         android:layout_marginTop="10dp"
         android:layout_marginRight="55dp"
-        android:text="50"
+        android:text="330"
         android:textColor="@color/LightBlue"
-        android:textSize="25sp"/>
+        android:textSize="25sp"
+        />
 
     <TextView
         android:id="@+id/desckiri"
@@ -122,7 +130,8 @@
         android:layout_below="@+id/kiri"
         android:layout_marginLeft="30dp"
         android:text="BLOOD GIVE"
-        android:textSize="9sp" />
+        android:textSize="9sp"
+        />
 
     <TextView
         android:id="@+id/desctengah"
@@ -131,7 +140,8 @@
         android:layout_below="@id/tengah"
         android:layout_centerHorizontal="true"
         android:text="BLOOD RECEIVED"
-        android:textSize="9sp" />
+        android:textSize="9sp"
+        />
 
     <TextView
         android:id="@+id/desckanan"
@@ -139,10 +149,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/kanan"
         android:layout_alignParentRight="true"
-        android:layout_marginRight="52dp"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="59dp"
         android:text="THANKS"
-        android:textSize="9sp" />
+        android:textSize="9sp"
+        />
 
     <View
         android:id="@+id/view2"
@@ -158,7 +169,9 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="0dp"
         android:layout_marginRight="0dp"
-        android:background="@color/separator" />
+        android:background="@color/separator"
+        />
+
     <ImageView
         android:id="@+id/pic_donor"
         android:layout_width="80dp"
@@ -166,7 +179,8 @@
         android:layout_below="@+id/view2"
         android:layout_marginLeft="65dp"
         android:layout_marginTop="30dp"
-        android:src="@drawable/ic_search_donor" />
+        android:src="@drawable/ic_search_donor"
+        />
 
     <TextView
         android:id="@+id/seach_donor"
@@ -177,7 +191,8 @@
         android:layout_marginTop="10dp"
         android:text="Search Donor"
         android:textColor="@android:color/black"
-        android:textSize="17sp" />
+        android:textSize="17sp"
+        />
 
     <TextView
         android:id="@+id/desdonor"
@@ -186,7 +201,8 @@
         android:layout_below="@+id/seach_donor"
         android:layout_marginLeft="47dp"
         android:text="Search donor near you"
-        android:textSize="12sp" />
+        android:textSize="12sp"
+        />
 
 
     <ImageView
@@ -197,7 +213,8 @@
         android:layout_alignParentRight="true"
         android:layout_marginTop="30dp"
         android:layout_marginRight="65dp"
-        android:src="@drawable/ic_blood_needed" />
+        android:src="@drawable/ic_blood_needed"
+        />
 
     <TextView
         android:id="@+id/txt_title_blood_needed"
@@ -209,7 +226,8 @@
         android:layout_marginRight="50dp"
         android:text="Blood Needed"
         android:textColor="@android:color/black"
-        android:textSize="17sp" />
+        android:textSize="17sp"
+        />
 
     <TextView
         android:id="@+id/desc_nb"
@@ -220,7 +238,8 @@
         android:layout_marginTop="0dp"
         android:layout_marginRight="54dp"
         android:text="4 Users need blood"
-        android:textSize="12sp" />
+        android:textSize="12sp"
+        />
 
     <ImageView
         android:id="@+id/picmes"
@@ -229,7 +248,8 @@
         android:layout_below="@+id/desdonor"
         android:layout_marginLeft="60dp"
         android:layout_marginTop="20dp"
-        android:src="@drawable/ic_message" />
+        android:src="@drawable/ic_message"
+        />
 
     <TextView
         android:id="@+id/title_mes"
@@ -240,7 +260,8 @@
         android:layout_marginTop="10dp"
         android:text="Message"
         android:textColor="@android:color/black"
-        android:textSize="17sp" />
+        android:textSize="17sp"
+        />
 
     <TextView
         android:id="@+id/descmes"
@@ -249,7 +270,8 @@
         android:layout_below="@id/title_mes"
         android:layout_marginLeft="55dp"
         android:text="5 New Messages"
-        android:textSize="12sp" />
+        android:textSize="12sp"
+        />
 
     <ImageView
         android:id="@+id/pichistory"
@@ -259,7 +281,8 @@
         android:layout_alignParentRight="true"
         android:layout_marginTop="20dp"
         android:layout_marginRight="60dp"
-        android:src="@drawable/ic_donor_history" />
+        android:src="@drawable/ic_donor_history"
+        />
 
     <TextView
         android:id="@+id/titlehis"
@@ -267,11 +290,12 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/pichistory"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="61dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="41dp"
         android:text="Donor History"
         android:textColor="@android:color/black"
-        android:textSize="17sp" />
+        android:textSize="17sp"
+        />
 
     <TextView
         android:id="@+id/deschis"
@@ -279,7 +303,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/titlehis"
         android:layout_alignParentRight="true"
-        android:layout_marginRight="60dp"
-        android:text="5 Gives 2 Rec"/>
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="52dp"
+        android:text="5 Gives 2 Rec"
+        android:textSize="12sp"
+        />
 
 </RelativeLayout>

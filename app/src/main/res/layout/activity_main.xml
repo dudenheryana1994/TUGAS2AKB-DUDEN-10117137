@@ -36,8 +36,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:layout_marginRight="30dp"
-
         />
+
     <EditText
         android:id="@+id/password"
         android:layout_below="@+id/username"
@@ -51,7 +51,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="18dp"
         android:layout_marginRight="30dp"
-
         />
 
     <Button
@@ -62,7 +61,9 @@
         android:layout_centerInParent="true"
         android:layout_height="wrap_content"
         android:layout_below="@id/password"
-        android:layout_marginTop="25dp"/>
+        android:layout_marginTop="25dp"
+        />
+
     <TextView
         android:id="@+id/text_or"
         android:gravity="center"
@@ -75,8 +76,8 @@
         android:layout_height="50dp"
         android:layout_below="@id/tmbl_Login"
         android:textAlignment="center"
-
         />
+
     <Button
         android:id="@+id/tmbl_fb"
         style="@style/btnbrpth2"
@@ -86,8 +87,8 @@
         android:layout_below="@id/text_or"
         android:drawableLeft="@drawable/ic_welcome_fb_login"
         android:paddingLeft="20dp"
-        android:layout_marginTop="2dp"/>
-
+        android:layout_marginTop="2dp"
+        />
 
     <TextView
         android:id="@+id/register"
